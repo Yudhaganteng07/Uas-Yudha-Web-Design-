@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Penjualan Tempat Tinggal</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap2.css" rel="stylesheet">
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Yudhae Property's</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#daftar-rumah">Daftar Rumah</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tentang-kami">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hubungi-kami">Hubungi Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="parallax">
+        <div class="container text-center">
+            <h1>SELAMAT DATANG</h1>
+            <p>TEMUKAN RUMAH IMPIAN KALIAN DISINI</p>
+        </div>
+    </section>
+
+    <section id="daftar-rumah">
+        <div class="container">
+            <h1 class="text-center mb-5 section-title">DAFTAR HUNIAN YANG DIJUAL</h1>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="asset/1.jpg" class="card-img-top" alt="Rumah 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Rumah Modern di Kota</h5>
+                            <p class="card-text">Rp 1.500.000.000</p>
+                            <p class="card-text">Rumah dengan desain modern dan fasilitas lengkap.</p>
+                            <a href="#" class="btn btn-primary" onclick="showDetail('rumah-1')">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="asset/2.jpg" class="card-img-top" alt="Rumah 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Rumah di Pinggiran Kota</h5>
+                            <p class="card-text">Rp 900.000.000</p>
+                            <p class="card-text">Rumah nyaman dengan lingkungan yang tenang.</p>
+                            <a href="#" class="btn btn-primary" onclick="showDetail('rumah-2')">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="asset/3.jpg" class="card-img-top" alt="Rumah 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Rumah Mewah di Pusat Kota</h5>
+                            <p class="card-text">Rp 3.000.000.000</p>
+                            <p class="card-text">Rumah mewah dengan lokasi strategis dan fasilitas premium.</p>
+                            <a href="#" class="btn btn-primary" onclick="showDetail('rumah-3')">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="asset/4.jpg" class="card-img-top" alt="Rumah 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Rumah Minimalis di Suburban</h5>
+                            <p class="card-text">Rp 1.200.000.000</p>
+                            <p class="card-text">Rumah minimalis dengan lingkungan hijau.</p>
+                            <a href="#" class="btn btn-primary" onclick="showDetail('rumah-4')">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="asset/5.jpg.jpg" class="card-img-top" alt="Rumah 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Rumah Tradisional</h5>
+                            <p class="card-text">Rp 800.000.000</p>
+                            <p class="card-text">Rumah dengan gaya tradisional dan halaman luas.</p>
+                            <a href="#" class="btn btn-primary" onclick="showDetail('rumah-5')">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="asset/6.jpg" class="card-img-top" alt="Rumah 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Apartemen di Pusat Kota</h5>
+                            <p class="card-text">Rp 2.500.000.000</p>
+                            <p class="card-text">Apartemen mewah dengan fasilitas lengkap.</p>
+                            <a href="#" class="btn btn-primary" onclick="showDetail('rumah-6')">Lihat Detail</a>                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang-kami">
+        <div class="container">
+            <h1 class="text-center mb-5">Tentang Kami</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Kami adalah agen properti yang berkomitmen untuk menyediakan tempat tinggal terbaik bagi Anda. Kami telah beroperasi selama lebih dari 10 tahun dengan ribuan pelanggan puas.</p>
+                    <p>Dengan tim profesional yang berdedikasi, kami membantu Anda menemukan rumah impian Anda dengan mudah dan nyaman. Kami selalu siap untuk memberikan layanan terbaik dan informasi terbaru mengenai pasar properti.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="asset/tentang kami.png.jpg" alt="Tentang Kami" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hubungi-kami">
+        <div class="container">
+            <h1 class="text-center mb-5">Hubungi Kami</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Jika Anda memiliki pertanyaan atau ingin informasi lebih lanjut, silakan hubungi kami melalui:</p>
+                    <ul>
+                        <li>Email: triyudha02@gmail.com</li>
+                        <li>Telepon: +62 81362822822</li>
+                        <li>Alamat: Jl. Karya No.219</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="asset/hubungi kami.jpg" alt="Hubungi Kami" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <h1 class="text-center mb-5">Blog</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Temukan artikel-artikel terbaru tentang tips dan trik membeli properti, renovasi rumah, dan banyak lagi di blog kami. Kami menyediakan informasi terkini yang dapat membantu Anda dalam membuat keputusan yang tepat terkait properti.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="asset/blog.png.jpg" alt="Blog" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light text-center py-4 mt-5">
+        <p>&copy; 2024 Web Penjualan Tempat Tinggal. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="bootstrap2.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+</body>
+</html>

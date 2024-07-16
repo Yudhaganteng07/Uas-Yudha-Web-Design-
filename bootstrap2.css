@@ -1,0 +1,76 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.navbar {
+    background-color: #8567a0
+}
+.navbar-brand {
+    background: linear-gradient(to right, #A0FE65, #FA016D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    transition: background-color 0.3s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffffff !important;
+}
+.navbar-nav .nav-link:nth-child(1):hover {
+    background-color: #3cb371;
+}
+.navbar-nav .nav-link:nth-child(2):hover {
+    background-color: #8fbc8f;
+}
+.navbar-nav .nav-link:nth-child(3):hover {
+    background-color: #20b2aa;
+}
+.navbar-nav .nav-link:nth-child(4):hover {
+    background-color: #32cd32;
+}
+.navbar-nav .nav-link:nth-child(5):hover {
+    background-color: #228b22;
+}
+section {
+    padding: 60px 0;
+    background-color: #FFF5EE;
+}
+.section-title {
+    background: linear-gradient(to right, #ff0a6c, #0040ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.parallax {
+    background-image: url('asset/rumah-mewah-Armada.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.parallax h1 {
+    font-size: 3rem;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    color: black;
+}
+
+.card:hover {
+    background-color: #FFEBCD;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
